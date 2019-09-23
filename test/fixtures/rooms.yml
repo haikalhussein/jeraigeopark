@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  rno: MyString
+  price: 1
+  description: MyText
+  room_type: one
+  accomodation: one
+
+two:
+  rno: MyString
+  price: 1
+  description: MyText
+  room_type: two
+  accomodation: two
