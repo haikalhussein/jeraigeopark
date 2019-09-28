@@ -1,4 +1,14 @@
 Rails.application.routes.draw do
+  resources :bookings
+  namespace :admin do
+      resources :users
+      resources :rooms
+      resources :room_types
+      resources :room_attachments
+      resources :accomodations
+
+      root to: "users#index"
+    end
   resources :room_attachments
   resources :rooms
   resources :room_types

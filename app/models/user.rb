@@ -6,6 +6,8 @@ class User < ApplicationRecord
          :confirmable, :lockable, :trackable, :omniauthable
 
   validates_presence_of :name
+  has_many :accomodations
+  has_many :bookings
 
   def first_name
     self.name.split.first

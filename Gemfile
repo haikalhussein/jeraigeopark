@@ -54,5 +54,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Authentication
+gem 'administrate', '~> 0.12.0'
 gem 'devise', '~> 4.2'
 gem 'omniauth', '~> 1.6', '>= 1.6.1'
+#gem 'cancancan'
+#gem 'rolify'
